@@ -1,0 +1,11 @@
+syntax="proto2";
+
+package data_pipe; 
+
+message msg
+{
+    required int32 type1 = 1;
+    required int32 type2 = 2;
+    required int32 type3 = 3;
+
+}
